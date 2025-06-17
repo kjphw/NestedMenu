@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Nested Menu Navigation Webpage</title>
+    </head>
+    <body>
+        <script src="buttonstuff.js"></script>
+        <h1>Katelyna's Favorite Subjects</h1>
+        <br>
+        <div class="button">
+            <div class="subject1" onclick="dropdown('.ComputerScience')" style="cursor:pointer;">
+                <h2>Computer Science</h2>
+            </div>
+        </div>
+        <br>
+        <div class="ComputerScience" id="cs-dropdown" style="display: none;">
+            <a href="programming.html" style="text-decoration:none;">
+                <div class="items1"><h2>Programming Languages</h2></div> <br>
+            </a>
+            <a href="erdiagrams.html" style="text-decoration:none;">
+                <div class="items1"><h2>ER Diagrams</h2></div> <br>
+            </a>
+            <a href="datastructures.html" style="text-decoration:none;">
+                <div class="items1"><h2>SQL Table</h2></div>
+            </a>
+        </div>
+        <br>
+        <div class="button">
+            <div class="subject2" onclick="dropdown('.Art')" style="cursor:pointer;">
+                <h2>Art</h2>
+            </div>
+        </div>
+        <br>
+        <div class="Art" id="art-dropdown" style="display: none;">
+            <a href="sketches.html" style="text-decoration:none;">
+                <div class="items2"><h2>Sketches</h2></div> <br>
+            </a>
+            <a href="photography.html" style="text-decoration:none;">
+                <div class="items2"><h2>Photography</h2></div> <br>
+            </a>
+            <a href="awards.html" style="text-decoration:none;">
+                <div class="items2"><h2>Awards</h2></div>
+            </a>
+        </div>
+        <br>
+        <div class="button">
+            <div class="subject3" onclick="dropdown('.TV')" style="cursor:pointer;">
+                <h2>TV</h2>
+            </div>
+        </div>
+        <br>
+        <div class="TV" id="tv-dropdown" style="display: none;">
+            <a href="thenanny.html" style="text-decoration:none;">
+                <div class="items3"><h2>The Nanny</h2></div> <br>
+            </a>
+            <a href="thegooddoctor.html" style="text-decoration:none;">
+                <div class="items3"><h2>The Good Doctor</h2></div> <br>
+            </a>
+            <a href="geekgirl.html" style="text-decoration:none;">
+                <div class="items3"><h2>Geek Girl</h2></div>
+            </a>
+        </div>
+    </body>
+</html>
