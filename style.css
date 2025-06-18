@@ -19,6 +19,12 @@ h1 {
     text-align: center;
 }
 
+div {
+    font-size: 3.2vw;
+    color: white;
+    text-align: center;
+}
+
 .button {
     display: flex;
     align-items: center;
