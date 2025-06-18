@@ -78,6 +78,7 @@ h1 {
 }
 
 .items1, .items2, .items3 {
+    color: grey;
     font-size: 15px;
     border-radius: 20px;
     width: 100%;
@@ -91,17 +92,20 @@ h1 {
 
 .items1 {
     background-color: lavenderblush;
-    color: grey;
 }
 
 .items2 {
     background-color: aquamarine;
-    color: coral;
 }
 
 .items3 {
     background-color: lavender;
-    color: #e0dc23;
+}
+
+.home {
+    background-color: white;
+    color: aqua;
+    border-radius: 20px;
 }
 
 h2 {color: white;}
