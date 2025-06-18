@@ -11,40 +11,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+        <script src="buttonstuff.js"></script>
         <h1>The Good Doctor</h1>
         <script>
-          /**********************************************************************************************/
-          /* Name: displayImage                                                                         */
-          /* Desription: Displays er diagrams.                                                          */
-          /* Date: May 27, 2025                                                                         */
-          /* Author: Katelyna Pastrana                                                                  */
-          /* References: https://www.ezmcq.com/ez/show_aia_link.php?kw=web&&city=JavaScript,            */
-          /*    https://www.youtube.com/watch?v=hdI2bqOjy3c, Karen Works Lectures in Canvas,            */
-          /*    https://www.w3schools.com/jsref/jsref_gethours.asp, Time Changing Images,               */
-          /*    https://www.geeksforgeeks.org/how-to-display-images-in-javascript/, and                 */
-          /*    https://www.w3schools.com/tags/ref_colornames.asp                                       */
-          /* Image Source: https://www.primevideo.com/detail/The-Good-Doctor/0OO3EI0WX74I0JQ44KM0DGWHPT */
-          /**********************************************************************************************/
-
-          function displayImage(src, alt) {
-              //Creates a new image element
-              let image = document.createElement("img");
-              
-              //Set source of image and alt attributes
-              image.src = src;
-              image.height = 480;
-              image.width = 640;
-              image.alt = alt;
-              
-              //Create and aply a centered heading with the image
-              let div = document.createElement("div");
-              div.style.textAlign = "center";
-              div.appendChild(image);
-
-              document.body.appendChild(div);
-          }
-          displayImage("thegooddoctor.jpg", "The Good Doctor Show Poster");
-
+            displayImage("thegooddoctor.jpg", 480, 640, "The Good Doctor Show Poster");
         </script>
         <div>Love character development but romances are poorly written</div>
         <div>(Not the point of the show but if its going to be there make it good at least)</div>
