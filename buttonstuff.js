@@ -13,7 +13,7 @@ function dropdown(subject) {
 
 /***********************************************************************************/
 /* Name: displayImage                                                              */
-/* Desription: Displays er diagrams.                                               */
+/* Desription: Displays images.                                                    */
 /* Date: May 27, 2025                                                              */
 /* Author: Katelyna Pastrana                                                       */
 /* References: https://www.ezmcq.com/ez/show_aia_link.php?kw=web&&city=JavaScript, */
