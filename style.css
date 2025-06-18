@@ -62,7 +62,7 @@ h1{
 
 .ComputerScience {
     background-color: aquamarine;
-    width: 95%;
+    width: 90%;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ h1{
 
 .Art {
     background-color: lavender;
-    width: 95%;
+    width: 90%;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ h1{
 
 .TV {
     background-color: lavenderblush;
-    width: 95%;
+    width: 90%;
     height: 50px;
     display: flex;
     flex-direction: column;
