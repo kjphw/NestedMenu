@@ -28,6 +28,7 @@ h1 {
 
 /* Common style for subject buttons */
 .subject1, .subject2, .subject3 {
+    color: grey;
     font-size: 20px;
     border-radius: 20px;
     width: 90%;
@@ -41,17 +42,14 @@ h1 {
 
 .subject1 {
     background-color: aquamarine;
-    color: coral;
 }
 
 .subject2 {
     background-color: lavender;
-    color: grey;
 }
 
 .subject3 {
     background-color: lavenderblush;
-    color: #66f8cf;
 }
 
 /* Common style for dropdown sections */
