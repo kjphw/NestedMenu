@@ -5,22 +5,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
 -->
 <html>
     <head>
-        <title>SQL Table</title>
+        <title>DML Input</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>I wrote this table for my other class</h1>
+        <h1>I wrote this DML for a table in a project in my other class</h1>
         
-        <div class='table'>CREATE TABLE pastrana_Buyer (</div>
-        <div class='table'>    buyerID    INT NOT NULL AUTO_INCREMENT,</div>
-        <div class='table'>    buyerName  VARCHAR(30),</div>
-        <div class='table'>    minBudget  INT,</div>
-        <div class='table'>    maxBudget  INT,</div>
-        <div class='table'>    INDEX (buyerName),</div>
-        <div class='table'>    PRIMARY KEY (buyerID)</div>
-        <div class='table'>);</div>
+        <div class='table'>INSERT INTO pastrana_Buyer (buyerName, minBudget, maxBudget) VALUES
+        <div class='table'>('Jane Doe', 0, 10000),</div>
+        <div class='table'>('John Doe', 6000, 18000),</div>
+        <div class='table'>('Juan Diaz', 500, 100000),</div>
+        <div class='table'>('Maria Diaz', 1000, 500000),</div>
+        <div class='table'>('Ashley Smith', 200, 1000),</div>
+        <div class='table'>('Joe Smith', 100, 500),</div>
+        <div class='table'>('Barbara Alverez', 25, 870000),</div>
+        <div class='table'>('Juan-Pablo Alverez', 700, 900000),</div>
+        <div class='table'>('Donald Duck', 100, 4000),</div>
+        <div class='table'>('Daisy Duck', 10, 1000000);</div>
         <br><br>
         <a href="index.html" style="text-decoration:none;">
             <div class="home"  style="cursor:pointer;"> <h2> < Back</h2> </div>
