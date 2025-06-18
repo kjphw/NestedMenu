@@ -112,8 +112,12 @@ div {
     background-color: white;
     color: aqua;
     border-radius: 20px;
+    width: 10%;
 }
 
-h2 {color: white;}
+.tab {
+    tab-size: 4;
+    color: white;
+}
 
-p {color: white;}
+.table, h2, p {color: white;}
