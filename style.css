@@ -5,8 +5,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 /* 
     Created on : Jun 17, 2025, 7:33:21 AM
     Author     : katelynapastrana
-    References : https://www.youtube.com/watch?v=wx5Be8G8Zbo and 
-                 https://stackoverflow.com/questions/11777598/font-size-relative-to-the-users-screen-resolution
+    References : https://www.youtube.com/watch?v=wx5Be8G8Zbo, 
+                 https://stackoverflow.com/questions/11777598/font-size-relative-to-the-users-screen-resolution, and
+                 https://www.geeksforgeeks.org/html/how-to-insert-spaces-tabs-in-text-using-html-css/
 */
 body{
     background-color: aqua;
@@ -141,6 +142,16 @@ div {
 }
 
 .table {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.tab {
+    tab-size: 4;
     font-size: 40px;
     color: white;
     display: flex;
