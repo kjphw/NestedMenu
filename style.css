@@ -61,6 +61,7 @@ h1{
 }
 
 .ComputerScience {
+    border-radius: 20px;
     background-color: aquamarine;
     width: 90%;
     height: 50px;
@@ -83,6 +84,7 @@ h1{
 }
 
 .Art {
+    border-radius: 20px;
     background-color: lavender;
     width: 90%;
     height: 50px;
@@ -105,6 +107,7 @@ h1{
 }
 
 .TV {
+    border-radius: 20px;
     background-color: lavenderblush;
     width: 90%;
     height: 50px;
