@@ -71,7 +71,7 @@ h1{
     background-color: lavenderblush;
     color: #66f8cf;
     border-radius: 20px;
-    width: 85vh;
+    width: 700px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ h1{
     background-color: aquamarine;
     color: coral;
     border-radius: 20px;
-    width: 85vh;
+    width: 700px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ h1{
     background-color: lavender;
     color: #e0dc23;
     border-radius: 20px;
-    width: 85vh;
+    width: 700px;
     height: 50px;
     display: flex;
     align-items: center;
