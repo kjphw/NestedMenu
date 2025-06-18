@@ -11,40 +11,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+        <script src="buttonstuff.js"></script>
         <h1> Two ER Diagrams I Have Made</h1>
         <script>
-          /***********************************************************************************/
-          /* Name: displayImage                                                              */
-          /* Desription: Displays er diagrams.                                               */
-          /* Date: May 27, 2025                                                              */
-          /* Author: Katelyna Pastrana                                                       */
-          /* References: https://www.ezmcq.com/ez/show_aia_link.php?kw=web&&city=JavaScript, */
-          /*    https://www.youtube.com/watch?v=hdI2bqOjy3c, Karen Works Lectures in Canvas, */
-          /*    https://www.w3schools.com/jsref/jsref_gethours.asp, Time Changing Images,    */
-          /*    https://www.geeksforgeeks.org/how-to-display-images-in-javascript/, and      */
-          /*    https://www.w3schools.com/tags/ref_colornames.asp                            */
-          /***********************************************************************************/
-
-          function displayImage(src, h, w, alt) {
-              //Creates a new image element
-              let image = document.createElement("img");
-              
-              //Set source of image and alt attributes
-              image.src = src;
-              image.height = h;
-              image.width = w;
-              image.alt = alt;
-              
-              //Create and aply a centered heading with the image
-              let div = document.createElement("div");
-              div.style.textAlign = "center";
-              div.appendChild(image);
-
-              document.body.appendChild(div);
-          }
-          displayImage("ArtworkDatabaseERdiagram.png", 600, 800, "Artwork Database ER Diagram"); // From other class
+          x=800;
+          displayImage("ArtworkDatabaseERdiagram.png", 600, x, "Artwork Database ER Diagram"); // From other class
           document.write("<br>");
-          displayImage("ER_Diagram.png", 400, 800, "Friend Finder Database ER Diagram"); // From this one
+          displayImage("ER_Diagram.png", 400, x, "Friend Finder Database ER Diagram"); // From this one
         </script>
           
         <a href="index.html" style="text-decoration:none;">
