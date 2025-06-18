@@ -25,14 +25,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
           /*    https://www.w3schools.com/tags/ref_colornames.asp                            */
           /***********************************************************************************/
 
-          function displayImage(src, alt) {
+          function displayImage(src, h, w, alt) {
               //Creates a new image element
               let image = document.createElement("img");
               
               //Set source of image and alt attributes
               image.src = src;
-              image.height = 600;
-              image.width = 800;
+              image.height = h;
+              image.width = w;
               image.alt = alt;
               
               //Create and aply a centered heading with the image
@@ -42,9 +42,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
 
               document.body.appendChild(div);
           }
-          displayImage("ArtworkDatabaseERdiagram.png", "Artwork Database ER Diagram"); // From other class
+          displayImage("ArtworkDatabaseERdiagram.png", 600, 800, "Artwork Database ER Diagram"); // From other class
           document.write("<br>");
-          displayImage("ER_Diagram.png", "Friend Finder Database ER Diagram"); // From this one
+          displayImage("ER_Diagram.png", 400, 800, "Friend Finder Database ER Diagram"); // From this one
         </script>
           
         <a href="index.html" style="text-decoration:none;">
