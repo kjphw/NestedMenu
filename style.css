@@ -112,13 +112,13 @@ body {
 }
 
 h1 {
-    font-size: 4.0vw  !important;
+    font-size: 4.0vw;
     color: white !important;
-    text-align: center  !important;
+    text-align: center !important;
 }
 
 div {
-    font-size: 3.2vw  !important;
+    font-size: 3.2vw;
     color: white  !important;
     text-align: center  !important;
 }
