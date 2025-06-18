@@ -9,21 +9,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
                  https://stackoverflow.com/questions/11777598/font-size-relative-to-the-users-screen-resolution, and
                  https://www.geeksforgeeks.org/html/how-to-insert-spaces-tabs-in-text-using-html-css/
 */
-body {
-    background-color: aqua;
-}
-
-h1 {
-    font-size: 4.0vw;
-    color: white;
-    text-align: center;
-}
-
-div {
-    font-size: 3.2vw;
-    color: white;
-    text-align: center;
-}
 
 .button {
     display: flex;
@@ -121,3 +106,20 @@ div {
 }
 
 .table, h2, p {color: white;}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 4.0vw;
+    color: white;
+    text-align: center;
+}
+
+div {
+    font-size: 3.2vw;
+    color: white;
+    text-align: center;
+}
+
