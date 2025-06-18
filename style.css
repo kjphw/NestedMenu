@@ -108,18 +108,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .table, h2, p {color: white;}
 
 body {
-    background-color: aqua;
+    background-color: aqua !important;
 }
 
 h1 {
-    font-size: 4.0vw;
-    color: white;
-    text-align: center;
+    font-size: 4.0vw  !important;
+    color: white !important;
+    text-align: center  !important;
 }
 
 div {
-    font-size: 3.2vw;
-    color: white;
-    text-align: center;
+    font-size: 3.2vw  !important;
+    color: white  !important;
+    text-align: center  !important;
 }
 
