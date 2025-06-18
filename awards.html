@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Awards</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Pieces and The Prizes They Took</h1>
+        <script>
+          /***********************************************************************************/
+          /* Name: displayImage                                                              */
+          /* Desription: Displays er diagrams.                                               */
+          /* Date: May 27, 2025                                                              */
+          /* Author: Katelyna Pastrana                                                       */
+          /* References: https://www.ezmcq.com/ez/show_aia_link.php?kw=web&&city=JavaScript, */
+          /*    https://www.youtube.com/watch?v=hdI2bqOjy3c, Karen Works Lectures in Canvas, */
+          /*    https://www.w3schools.com/jsref/jsref_gethours.asp, Time Changing Images,    */
+          /*    https://www.geeksforgeeks.org/how-to-display-images-in-javascript/, and      */
+          /*    https://www.w3schools.com/tags/ref_colornames.asp                            */
+          /***********************************************************************************/
+
+          function displayImage(src, alt) {
+              //Creates a new image element
+              let image = document.createElement("img");
+              
+              //Set source of image and alt attributes
+              image.src = src;
+              image.height = 600;
+              image.width = 800;
+              image.alt = alt;
+              
+              //Create and aply a centered heading with the image
+              let div = document.createElement("div");
+              div.style.textAlign = "center";
+              div.appendChild(image);
+
+              document.body.appendChild(div);
+          }
+          displayImage("awardone.png", "Love is Life's Highlights by Katelyna Pastrana"); 
+        </script>
+        <h2>Love is Life's Highlights</h2>
+        <p>One of life's biggest celebrations is two people becoming one.</p>
+        <p>
+            This piece was entered into fourty4fourty and was accepted to hang in the 22nd-floor gallery in the state capital of Florida from January 11th to July 31st 2021. In which it received an honorable mention.
+        </p>
+        <script>
+          displayImage("awardtwo.png", "Kitty on a Stroll by Katelyna Pastrana");
+        </script>
+        <h2>Kitty on a Stroll</h2>
+        <p>A majestic tiger that calls the Bronx Zoo home.</p>
+        <p>
+            This piece was entered into the 2021 Walton County fair exhibit, where it received a blue ribbon! 
+        </p>
+        <script>
+          displayImage("awardthree.png", "Childhood Wonder by Katelyna Pastrana");
+        </script>
+        <h2>Childhood Wonder</h2>
+        <p>The magic seen by children's eyes is beautiful whether existent or not.</p>
+        <p>
+            This piece from my AP 2D Art Studio Sustained Investigation was entered into the 2022 Walton County fair exhibit and received a blue ribbon! 
+        </p>
+
+        <a href="index.html" style="text-decoration:none;">
+            <div class="home"  style="cursor:pointer;"> <h2> < Back</h2> </div>
+        </a>
+    </body>
+</html>
