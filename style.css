@@ -129,6 +129,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 .back{
     color: aqua;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
