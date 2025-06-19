@@ -115,13 +115,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     text-align: center;
 }
 
+.ht {
+    font-size: 4.0vw;
+    color: white;
+}
+
+.grey {
+    font-size: 4.0vw;
+    color: grey;
+    text-align: center;
+}
+
 body {
     background-color: aqua;
 }
-
-h1 {
-    font-size: 4.0vw;
-    color: white !important;
-    text-align: center !important;
-}
-
